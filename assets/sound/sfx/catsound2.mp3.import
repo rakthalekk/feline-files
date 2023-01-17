@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/catsound2.mp3-d7ad3512f812cd01c006d5e23a44c20e.mp3str"
+
+[deps]
+
+source_file="res://assets/sound/sfx/catsound2.mp3"
+dest_files=[ "res://.import/catsound2.mp3-d7ad3512f812cd01c006d5e23a44c20e.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

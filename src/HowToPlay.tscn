@@ -1,0 +1,29 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://src/HowToPlay.gd" type="Script" id=2]
+
+[node name="HowToPlay" type="CanvasLayer"]
+script = ExtResource( 2 )
+
+[node name="GotItButton" type="Button" parent="."]
+margin_left = 360.0
+margin_top = 384.0
+margin_right = 619.0
+margin_bottom = 455.0
+text = "Got it"
+
+[node name="Label" type="Label" parent="."]
+margin_left = 52.0
+margin_top = 25.0
+margin_right = 962.0
+margin_bottom = 272.0
+text = "Welcome to Feline Files! In this game, you are an investigative photographer who searches through haunted houses, identifying and photographing the ghosts of cats who once lived there.
+
+The cats do not welcome your presence, so you need to appease them before you can take a photo. Each cat needs to receive three items before it will show itself. You can identify what items each cat needs based on the evidence it leaves behind. Your trusty notebook will help you record evidence.
+
+The ghost cats only come out at night, so after 6:00 AM the cats will leave. You can see the time of day in the upper-right corner. If you give a cat an item it does not like, such as a burger, time will progress more quickly, meaning you have less time to photograph the cat.
+
+See Controls on the Guide Page."
+autowrap = true
+
+[connection signal="pressed" from="GotItButton" to="." method="_on_Button_pressed"]

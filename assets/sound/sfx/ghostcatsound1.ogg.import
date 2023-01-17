@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/ghostcatsound1.ogg-c8c2db401f6cec31fec36505986df82d.oggstr"
+
+[deps]
+
+source_file="res://assets/sound/sfx/ghostcatsound1.ogg"
+dest_files=[ "res://.import/ghostcatsound1.ogg-c8c2db401f6cec31fec36505986df82d.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

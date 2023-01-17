@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/pageflip.mp3-e8353cc9dfb8887faf705477867a87cc.mp3str"
+
+[deps]
+
+source_file="res://assets/sound/sfx/pageflip.mp3"
+dest_files=[ "res://.import/pageflip.mp3-e8353cc9dfb8887faf705477867a87cc.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

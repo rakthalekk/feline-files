@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/happycat.ogg-8fdc8a4d8bf04f247b126177c5149f67.oggstr"
+
+[deps]
+
+source_file="res://assets/sound/sfx/happycat.ogg"
+dest_files=[ "res://.import/happycat.ogg-8fdc8a4d8bf04f247b126177c5149f67.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

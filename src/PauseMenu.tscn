@@ -1,0 +1,58 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://assets/fonts/Pixel Font.ttf" type="DynamicFontData" id=1]
+[ext_resource path="res://src/ExitJournal.gd" type="Script" id=2]
+[ext_resource path="res://src/ReturnToMainMenu.gd" type="Script" id=3]
+[ext_resource path="res://assets/journal/Polaroid Border.png" type="Texture" id=4]
+[ext_resource path="res://src/PauseMenu.gd" type="Script" id=5]
+
+[sub_resource type="DynamicFont" id=1]
+font_data = ExtResource( 1 )
+
+[sub_resource type="DynamicFont" id=2]
+font_data = ExtResource( 1 )
+
+[node name="PauseMenu" type="CanvasLayer"]
+pause_mode = 2
+script = ExtResource( 5 )
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 510, 300 )
+scale = Vector2( 5, 5 )
+texture = ExtResource( 4 )
+
+[node name="Label" type="Label" parent="."]
+anchor_left = 0.5
+anchor_top = 0.3
+anchor_right = 0.5
+anchor_bottom = 0.3
+grow_horizontal = 2
+custom_fonts/font = SubResource( 1 )
+text = "Pause Menu"
+align = 1
+
+[node name="Resume" type="Button" parent="."]
+anchor_left = 0.5
+anchor_top = 0.4
+anchor_right = 0.5
+anchor_bottom = 0.4
+margin_left = -48.0
+margin_right = 52.0
+margin_bottom = 50.0
+grow_horizontal = 2
+custom_fonts/font = SubResource( 2 )
+text = "Resume"
+script = ExtResource( 2 )
+
+[node name="MainMenu" type="Button" parent="."]
+anchor_left = 0.5
+anchor_top = 0.6
+anchor_right = 0.5
+anchor_bottom = 0.6
+margin_left = -48.0
+margin_right = 52.0
+margin_bottom = 50.0
+grow_horizontal = 2
+custom_fonts/font = SubResource( 2 )
+text = "Main Menu"
+script = ExtResource( 3 )

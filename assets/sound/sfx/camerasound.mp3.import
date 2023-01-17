@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/camerasound.mp3-91cbc0e2a847066d4bbf575b826b7833.mp3str"
+
+[deps]
+
+source_file="res://assets/sound/sfx/camerasound.mp3"
+dest_files=[ "res://.import/camerasound.mp3-91cbc0e2a847066d4bbf575b826b7833.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

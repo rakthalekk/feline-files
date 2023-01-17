@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/toaster.mp3-00c3df1e3aedf1a76591e17f21e2ae96.mp3str"
+
+[deps]
+
+source_file="res://assets/sound/sfx/toaster.mp3"
+dest_files=[ "res://.import/toaster.mp3-00c3df1e3aedf1a76591e17f21e2ae96.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

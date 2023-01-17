@@ -1,0 +1,39 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://src/Exit.gd" type="Script" id=1]
+
+[node name="Guide" type="CanvasLayer"]
+
+[node name="Label" type="Label" parent="."]
+margin_left = 29.0
+margin_top = 17.0
+margin_right = 1008.0
+margin_bottom = 565.0
+text = "Controls:
+
+You can move with the WASD keys.
+
+The number keys (1-6) and the mouse scroll wheel can be used to select an item in your inventory. Left-click to use an inventory item.
+
+The camera can be used to briefly stun the cat while it is invisible, and you can take a picture of the cat once it is visible.
+
+The laser pointer can be used to attract a cat if it is nearby. Some cats are spiteful, however, and they will avoid the laser pointer.
+
+The detector can be placed on the ground, and it will make a noise if a cat walks near it. Only one can be placed at a time.
+
+All other objects (4-6) can be thrown in the direction of the mouse. If thrown at the cat, it will meow if it likes the item, and hiss if it dislikes the item.
+
+Objects can be picked up using the E key, adding them to your inventory.
+
+You can enable a UV flashlight by right-clicking. The UV light can detect ghostly paw-prints, and it has a cooldown meter shown in the bottom-right corner.
+
+Use TAB to open the Notebook, and Esc to pause."
+autowrap = true
+
+[node name="ExitButton" type="Button" parent="."]
+margin_left = 933.0
+margin_top = 525.0
+margin_right = 1015.0
+margin_bottom = 593.0
+text = "Exit"
+script = ExtResource( 1 )

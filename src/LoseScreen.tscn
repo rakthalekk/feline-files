@@ -1,0 +1,35 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://assets/fonts/Pixel Font.tres" type="DynamicFont" id=1]
+[ext_resource path="res://assets/Title Screen Buttons/Lose Screen.png" type="Texture" id=2]
+[ext_resource path="res://assets/fonts/Pixel Font.ttf" type="DynamicFontData" id=3]
+
+[sub_resource type="DynamicFont" id=2]
+font_data = ExtResource( 3 )
+
+[node name="LoseScreen" type="Node2D"]
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( -2.00003, -1.00001 )
+scale = Vector2( 1.79348, 1.86538 )
+texture = ExtResource( 2 )
+
+[node name="Label" type="Label" parent="."]
+margin_left = -57.0
+margin_top = -45.0
+margin_right = 69.0
+margin_bottom = -29.0
+custom_fonts/font = ExtResource( 1 )
+text = "You lose!"
+
+[node name="TitleScreenButton" type="Button" parent="."]
+margin_left = -40.0
+margin_top = 39.0
+margin_right = 42.0
+margin_bottom = 61.0
+custom_fonts/font = SubResource( 2 )
+text = "Title"
+
+[node name="Camera2D" type="Camera2D" parent="."]
+current = true
+zoom = Vector2( 0.65, 0.65 )
